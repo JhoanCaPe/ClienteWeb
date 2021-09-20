@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+
+    <form method="POST" action="procesar()">
+        <fieldset>
+            <legend>Datos Personales Votante</legend>
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Inserta Nombre Completo" autofocus/>
+            </p>
+            <p>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" value="18"/>
+            </p>
+            <p>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" required/>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required/>
+            </p>
+            <p>
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento"/>
+            </p>
+            <p>
+                <label for="tipo_votante">Tipo de Votante:</label>
+                <select name="tipo_votante">
+                    <option value="1" selected>Alumno</option>
+                    <option value="2">Profesor</option>
+                    <option value="3">Otro Personal de la Uni</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Propuestas a votar:</legend>
+            <p>
+                <label for="propuestas">Elige las propuestas que quieras:</label><br>
+                <input type="checkbox" name="propuestas" value="1"/>Ampliar la cafeteria<br>
+                <input type="checkbox" name="propuestas" value="2"/>Construcción de piscina<br>
+                <input type="checkbox" name="propuestas" value="3"/>Jaulas para los alumnos<br>
+                <input type="checkbox" name="propuestas" value="4"/>Mazmorras donde guardar<br>
+            </p>
+            <p>
+                <label for="propuestas2">Elige solo una:</label><br>
+                <input type="radio" name="propuestas2" value="1"/>Ampliar la cafeteria<br>
+                <input type="radio" name="propuestas2" value="2"/>Construcción de piscina<br>
+                <input type="radio" name="propuestas2" value="3"/>Jaulas para los alumnos<br>
+                <input type="radio" name="propuestas2" value="4"/>Mazmorras donde guardar<br>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otras propuestas</legend>
+            <p>
+                <label for="horasalida">Elige la hora de salida:</label>
+                <input type="time" name="horasalida"/>
+                <label for="coloraula">Color aulas:</label>
+                <input type="color" name="coloraula"/>
+                <label for="indices">Indice de satisfaccion con la universidad:</label>
+                <input type="range" min="0" max="5" name="indices"/>
+            </p>
+        </fieldset>
+        <input type="submit" value="Enviar"/>
+    </form>
+
+</body>
+</html>
