@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Pequeños reseteos */
+h1,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0.5em;
+}
+body {
+  background-color: white;
+}
+/* Para cambir el color de leta de ciertos elementos */
+.azul {
+  color: #0c27a0;
+}
+
+/* Contenedor general*/
+.container {
+  font-family: 'Lato', sans-serif;
+  margin: 20px auto;
+  width: 90%;
+}
+
+/* Parte del logo y menú */
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_item {
+  padding: 0.5em;
+  display: none;
+}
+
+/*Estilos parte principal*/
+main {
+  background-color: #84bbb8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section {
+  width: 100%;
+}
+
+section.main_text {
+  color: white;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+section.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.images img {
+  height: 100px;
+  width: 25%;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Para pantallas cuyo ancho minimo sea 576 px (primer breakpoint)
+- El menu de navegacion queremos que sea flex, y cada elemento del menu, sera inline-block, para que se puedan poner a continuacion
+- No mostramos el icono de las tres barras, ya no es necesario
+- La parte de novedades o noticias también es flex, y cada una de ellas ocupara el 25% del ancho de la seccion
+- La seccion principal, tendra la mitad para el texto principal y la otra mitad para las imagenes
+- Cada imagen tendra un ancho del 50% y un alto del 25% de la seccion
+*/
+@media screen and (min-width: 576px) {
+  
+}
+
+
+/* Para pantallas cuyo ancho minimo sea 992 px (segundo breakpoint)
+- Lo que estaba oculto, ahora se muestra (clase hidden, es una de las imagenes que quitamos de la vista para pequeñas pantallas)
+- La seccion principal, mostrara primero la parte de images y lueggo el texto principal
+- Cada imagen tendra un ancho y un alto del 33%
+*/
+@media screen and (min-width: 992px) {
+  
+}

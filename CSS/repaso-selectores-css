@@ -1,0 +1,42 @@
+* es el selector universal. Selecciona todo los elementos. 
+#id selecciona el elemento que tenga ese valor (id en este ejemplo) en el atributo id. 
+.class selecciona los elementos que tengan ese valor (class en este ejemplo) en el atributo class. 
+etiqueta selecciona esas etiquetas concretas. 
+selector1,selector2 sirve para cambiar las propiedades de los elementos seleccionados por ambos selectores 
+selector1 selector2 sirve para cambiar las propiedades de los elementos seleccionados por selector2 que se encuentran dentro de aquellos seleccionados por selector1. 
+selector1>selector2 sirve para cambiar las propiedades de los elementos seleccionados por selector2 que son hijos directos (en el árbol DOM) de aquellos que se seleccionen con selector1. 
+selector1+selector2 sirve para cambiar las propiedades de los elementos seleccionados por selector2 que están justo después de aquellos que se seleccionan mediante selector1. 
+selector1~selector2 igual que el anterior pero justo antes. 
+[atribut expre valor] siendo expre (=,~=,|=,$=,*..) para seleccionar elementos atendiendo al valor de sus atribtuos. 
+
+Repasar selectores: CSS Diner - Where we feast on CSS Selectors! (flukeout.github.io) 
+
+pseudoselectores
+De estado 
+:link 
+:visited 
+:enabled 
+:disabled 
+:checked 
+:required 
+:optional 
+:focus 
+:hover 
+:empty 
+
+De posición 
+:first-child 
+:first 
+:first-of-type 
+:last 
+:last-child 
+:last-of-type 
+:nth-child(n) 
+:nth-last-of-type() 
+
+Pseudoelementos
+::first-line 
+::first-letter 
+::after 
+::before 
+::selected 

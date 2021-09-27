@@ -1,0 +1,117 @@
+<!-- Basada en la pagina que creamos para el horario, añadir estilos para que, de forma muy sencilla
+    se pueda dar estilo al horario y que se parezca mucho más a la imagen del original. 
+    Si quisieramos añadir una clase mas en una celda, que fuera aún más sencillo.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/1428logo-utad.ico">
+
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <table>
+        <caption>HORARIO DE CLASE CURSO 2021-2022</caption>
+        <thead>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
+        <tbody>
+        <tr>
+            <th>8:00</th>
+            <td colspan="5" bgcolor="gray"></td>
+            
+        </tr>
+        <tr>
+            <th>9:00</th>
+            <td colspan="4" rowspan="2"></td>
+            <td rowspan="2">
+                <p style="text-align: left;">9:00</p>
+
+                <p style="background: steelblue;">Programación Web I: Cli
+                    <ul><li>Teoría</li><li>Práctica</li></ul>
+                </p>
+                <p style="text-align: right;">11:00</p>
+            </td>
+        </tr>
+        <tr>
+            <th>10:00</th>
+
+        </tr>
+        <tr>
+            <th>11:00</th>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">11:00</div>
+                <div class="texto">INSO3A<br>Dir. Gest. Proyectos<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">13:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">11:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">13:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">11:00</div>
+                <div class="texto">INSO3A<br>Dir. Gest. Proyectos<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">13:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">11:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">13:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">11:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">13:00</div>
+            </td>
+        </tr>
+        <tr>
+            <th>12:00</th>
+        </tr>
+        <tr>
+            <th>13:00</th>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">13:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">14:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">13:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">14:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">13:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">14:00</div>
+            </td>
+            <td class="asignatura" rowspan="2">
+                <div class="horaini">13:00</div>
+                <div class="texto">INSO3A<br>Intro a la Ciberseguridad<br>Eugenio Sillero<br>MD101</div>
+                <div class="horafin">14:00</div>
+            </td>
+            <td rowspan="2">
+               
+            </td>
+        </tr>
+        <tr>
+            <th>14:00</th>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
