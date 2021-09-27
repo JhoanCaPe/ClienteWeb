@@ -14,6 +14,11 @@ body {
 /* Este es el contenedor General donde fijo la estructura de la rejilla o Grid */
 .container {
   color: #666666;
+  display: grid;
+  grid-gap: 1em;
+  grid-auto-flow: row;
+  grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: 100px 400px 300px 100px;
   font-family: 'Lora', serif;
   margin: 20px auto;
   width: 90%;
@@ -22,6 +27,8 @@ body {
 /* Cabecera de la página */
 header {
   border-bottom: 1px solid #666666;
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
   padding: 1em;
   text-align: center;
 }
@@ -29,6 +36,8 @@ header {
 /* Menú lateral */
 nav {
   padding: 1em;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
 }
 
 nav div {
@@ -38,9 +47,12 @@ nav div {
 /* Imagen grande */
 main {
   border: 1px solid #aaaaaa;
+  border-radius: 1em;
   padding: 1em;
   text-align: center;
   width: 90%;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
 }
 
 main img {
@@ -50,12 +62,14 @@ main img {
 
 
 article {
+  border-radius: 1em;
   border: 1px solid #aaaaaa;
   padding: 1em;
   text-align: center;
 }
 
 article img {
+  border-radius: 1em;
   height: 60%;
   width: 100%;
 }
@@ -72,6 +86,8 @@ footer {
   align-items: center;
   border-top: 1px solid #666666;
   padding: 2em;
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
 }
 
 footer img {
