@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript: Basicos</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // 0. Mensajes
+        // alert
+        //alert('Hello clase de ciber');
+        // Console
+        console.log('mensaje de registro');
+        console.info('mensaje informativo');
+        console.error('mensaje de error');
+        console.warn('mensaje de aviso');
+        // Debugger: activacion
+        //debugger
+        //console.log('Despues del debugger');
+
+        // 1. Variables
+        const saludo = "Hola otra vez";
+        console.log(saludo);
+        // asignar nuevo valor a constante??? No!
+        //saludo = 'hola holita';
+
+         if(true){
+             const text = "texto dentro de if";
+             console.log(text);
+         }
+         //console.log(text);
+
+         // Diferencia entre let/var
+         let mejor = 'variable con scope';
+         var peor = 'variable sin scope';
+         
+         // 2. Numeros
+         // == que (Check value)
+         console.log(40 == 40) // TRUE
+         console.log(40 == '40') // TRUE
+         // === (Check value and type)
+         console.log(40 === 40) // TRUE
+         console.log(40 === '40') // FALSE
+         // !=  No es igual que, PARA CHEQUEAR TIPO TAMBIEN !==
+         console.log(40 != '40') // FALSE
+         console.log(40 !== '40') // TRUE
+         // TYPEOFF
+         let num = 20;
+         console.log(typeof(num));
+         // NaN
+         const notanum = 'sdfgdfgd';
+         console.log(isNaN(notanum)); // TRUE
+         console.log(isNaN('12')); //FALSE
+         console.log(isNaN(12)); // FALSE
+
+
+         let MOVIL_PRICE = 300, CASCOS_PRICE = 30, FUNDA_PRICE = 10, DISCOUNT = 10, IVA = 1 + 21/100;
+         let TOTAL = MOVIL_PRICE + CASCOS_PRICE + FUNDA_PRICE
+         let SUBTOTAL1 = TOTAL * (1 - DISCOUNT/100)
+         let SUBTOTAL2 = SUBTOTAL1 * IVA;
+         console.log('A pagar: ' + SUBTOTAL2.toFixed(2));
+
+         // 3. Cadenas
+         // concatenar texto +
+         console.log('hello' + 'World');
+         // template literals (` ${} `)
+         const name2 = 'Nayra'
+         console.log(`Hello ${name2} que pases un dia estupento`);
+         console.log(name2.length);
+         // .split (',')
+         const geolocation = 'Calle whatever. 7. 1D'
+         console.log(geolocation.split('.'));
+
+         // 4. Booleans
+         console.log(Boolean(1));
+         console.log(Boolean("Whatever"));
+         console.log(Boolean(3.14));
+         console.log(Boolean(100 > 5));
+         console.log(Boolean(1 < 100));
+         console.log(Boolean('1' == 1));
+
+         // 5. Valores nulos e indefinidos
+         // undefined 
+         console.log(a);
+         var a = 'var de test';
+         console.log(a); 
+
+         console.log(b);
+         let b = 'var de test';
+         console.log(b);
+
+         //NULL
+         console.log(c);
+         var c = null;
+         console.log(c); 
+
+         console.log(d);
+         let d = null;
+         console.log(d);
+
+    </script>
+    
+</body>
+</html>
