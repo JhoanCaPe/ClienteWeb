@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="static/flex_table.css" />
+	<meta charset="utf-8">
+	<title>Jumping Frog Game</title>
+</head>
+
+<body>
+
+	<div class="header">
+		<h1>Jumping Frog Game</h1>
+	</div>
+
+
+
+<div class="container">
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+</div>
+<div class="container">
+	<div class="item"><img src="./static/L.png" id="0" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/L.png" id="1" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/L.png" id="2" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/B.png" id="3" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/R.png" id="4" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/R.png" id="5" width="93" height ="110" onclick ='mueveRana(this);'></div>
+	<div class="item"><img src="./static/R.png" id="6" width="93" height ="110" onclick ='mueveRana(this);'></div>
+</div>
+<div class="container">
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+  <div class="item"><img src="./static/E.png" id="H0" width="93" height ="110" ></div>
+</div>
+
+<div class="container">
+
+  <div class="boton"><button  class="cupid-blue" type="submit"  onClick="refreshPage()">Refresh Button</button></div>
+  <div class="boton"><button  class="cupid-blue" type="submit"  onClick="rana_aleatoria()">Aleatoriza</button></div>
+  <div class="boton"><button  class="cupid-blue" type="submit"  onClick="algoritmo_hardcoded()">Resuelve Hardcoded</button></div>
+  <div class="boton"><button  class="cupid-blue" type="submit"  onClick="algoritmo_recursive()">Resuelve Recursivo</button></div>
+</div>
+
+<script type="text/javascript">
+
+  
+  function mueveRana(el){
+    let id_el = parseInt(el.id, 10);
+    if (document.getElementById(id_el).src.includes("L.png")) {
+      if(document.getElementById(id_el+1).src.includes("B.png")) {
+            frog_swap(id_el,id_el+1)
+        }else {
+          if(document.getElementById(id_el+2).src.includes("B.png")) {
+            frog_swap(id_el,id_el+2)
+            }       
+        }
+    } else if (document.getElementById(id_el).src.includes("R.png")){ 
+        if(document.getElementById(id_el-1).src.includes("B.png")){
+            frog_swap(id_el,id_el-1)
+        } else {
+            if(document.getElementById(id_el-2).src.includes("B.png")) {
+                frog_swap(id_el,id_el-2)
+            }       
+        }
+    } else {
+        alert("You can not move the blank space!")
+    }       
+    
+    checkWin();
+    //checkBlock();
+}
+
+function checkWin(){
+  if( document.getElementById(0).src.includes("R.png") &&
+      document.getElementById(1).src.includes("R.png") && 
+      document.getElementById(2).src.includes("R.png") && 
+      document.getElementById(4).src.includes("L.png") && 
+      document.getElementById(5).src.includes("L.png") && 
+      document.getElementById(6).src.includes("L.png")){
+        setTimeout(()=>{
+            alert("Has ganado!");
+        },1)    
+    }   
+}
+
+
+  function algoritmo_hardcoded(){
+    setTimeout(()=>{ frog_swap(3,2); },1000);
+    setTimeout(()=>{ frog_swap(2,4); },2000);   
+    setTimeout(()=>{ frog_swap(4,5); },3000);   
+    setTimeout(()=>{ frog_swap(5,3); },4000);   
+    setTimeout(()=>{ frog_swap(3,1); },5000);   
+    setTimeout(()=>{ frog_swap(1,0); },6000);   
+    setTimeout(()=>{ frog_swap(0,2); },7000);   
+    setTimeout(()=>{ frog_swap(2,4); },8000);   
+    setTimeout(()=>{ frog_swap(4,6); },9000);   
+    setTimeout(()=>{ frog_swap(6,5); },10000);  
+    setTimeout(()=>{ frog_swap(5,3); },11000);  
+    setTimeout(()=>{ frog_swap(3,1); },12000);
+    setTimeout(()=>{ frog_swap(1,2); },13000);
+    setTimeout(()=>{ frog_swap(2,4); },14000);
+    setTimeout(()=>{ frog_swap(4,3); },15000);
+    setTimeout(()=>{ checkWin(); },16000);  
+  }
+
+  function frog_swap(i,j){
+    var copy_src = document.getElementById(i).src;
+    document.getElementById(i).src = document.getElementById(j).src;
+    document.getElementById(j).src = copy_src;
+  }
+
+  function  refreshPage(){
+    window.location.reload();
+  }
+  
+</script>
+
+</body>
+</html>

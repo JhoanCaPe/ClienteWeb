@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery - testing</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <!-- Cargar la liberia jquery local -->
+    <script src="js/jquery-3.6.0.js"></script>
+
+    <!-- Cargar la libreria desde cdn remoto, en google cdn hosted library, no recomendable-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+</head>
+<body>
+    <!-- Copio aquí html valido de otro ejercicio para poder ensayar los selectores -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Fecha de nacimiento</th>
+                <th>Sexo</th>
+                <th>Tiempo parcial</th>
+                <th>Borrar</th>
+            </tr>
+        </thead>
+        <tbody id="table_body">
+            <tr>
+                <td>Alfonso</td>
+                <td>Izquierdo</td>
+                <td>27/11/1971</td>
+                <td>Hombre</td>
+                <td><img src="ok.png" width="32" alt="Sí"/></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Macarena</td>
+                <td>Díaz</td>
+                <td>27/11/1973</td>
+                <td>Mujer</td>
+                <td><img src="ko.png" width="32" alt="No"/></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <label for="campo_nombre">Nombre</label>
+        <input type="text" name="nombre" id="campo_nombre"/><br>
+
+        <label for="campo_apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="campo_apellidos"/><br>
+
+        <label for="campo_fecha">Fecha nacimiento</label>
+        <input type="date" name="fecha" id="campo_fecha"/><br>
+
+        <label for="campo_sexo_hombre">Hombre</label>
+        <input type="radio" name="sexo" id="campo_sexo_hombre" value="hombre"/><br>
+        <label for="campo_sexo_mujer">Mujer</label>
+        <input type="radio" name="sexo" id="campo_sexo_mujer" value="mujer"/><br>
+        <label for="campo_sexo_otro">Otro</label>
+        <input type="radio" name="sexo" id="campo_sexo_otro" value="otro"/><br>
+        <label for="campo_sexo_no_especificado">No especificado</label>
+        <input type="radio" name="sexo" id="campo_sexo_no_especificado" value="ne"/><br>
+
+        <label for="campo_tiempo_parcial">Tiempo parcial</label>
+        <input type="checkbox" name="tiempo_parcial" id="campo_tiempo_parcial"/><br>
+    </form>
+    <button id="campo_enviar" onclick="enviarFormulario()">Enviar</button>
+
+    <!--script para usar jquery al final del body y siempre con esta estructura -->
+    <!-- Solo ejercicios de prueba $("selector").accion -->
+    <script>
+        $(function() {
+            //Practicar en CONSOLA
+            //SELECTORES CSS:
+            //ocutarlo todo, con el *
+            //$("*").hide();
+            //ocultar por etiqueta
+            //$("label").hide();
+            // ocultar por id
+            //$("#campo_sexo_otro").hide();
+            // ocultar por clase
+            // ocultar varios elementos separadas por comas
+            // ocultar los elementos hijos de ...
+            // ... asi con los selectores CSS
+
+            //SELECTORES JQUERY
+            // Cuando el selector devuelve varios elementos, por ejemplo, todos los labels, indicar cuál por indice
+            //$("label").eq(1).hide();
+
+            //Practicar en consola con pseudo selectores (estados de los elementos) y pseudoelementos (partes de los elementos)
+            //$("td:last-of-type").hide(); // oculta las ultimas celdas de cada fila
+            // Selecciona un elemento al pasar sobre el :hover y ocultalo
+            //$("label:hover").hide();
+
+            
+            //Mas ejemplos
+            // :header: Para seleccionar cualquier tipo de etiqueta de cabecera (h1,h2, h3…)
+            // :hidden o :visible: Para seleccionar elementos ocultos o visibles.
+            // :parent: Aquellos elementos que tienen al menos un hijo dentro del árbol HTML.
+            // $(this) Elemento actual
+            // $("p.intro") Todos los <p> con class="intro"
+            // $("p:first") Primer <p>
+            // $("ul li:first") Primer <li> de la primera <ul>
+            // $("ul li:first-child") Primer <li> de cada <ul>
+            // $("[href]") Todos los elementos que tengan un atributo href
+            // $("a[target='_blank']") Todos los <a> cuyo atributo target valga "_blank"
+            // $("a[target!='_blank']") Todos los <a> cuyo target sea distinto a "_blank"
+            // $(":button") Todos los <button> y los <input> con type="button"
+            // $("tr:even") Todos <tr> pares
+            // $("tr:odd") Todos los <tr> impares
+
+
+        });
+    </script>
+</body>
+</html>

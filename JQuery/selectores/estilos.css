@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    color: blue;
+    background-color: aliceblue;
+    width: 180px;
+}
+
+tr {
+    background-color: lightgoldenrodyellow;
+}
+
+#campo_enviar:hover {
+    background-color: blue;
+}

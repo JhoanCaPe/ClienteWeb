@@ -1,0 +1,180 @@
+<!-- Repaso de JavaScript-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript: Basicos</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            // 0. Mensajes
+            // alert
+            //alert('Hello clase de ciber');
+            //Console
+            console.log('mensaje de registro');
+            console.info('mensaje informativo');
+            console.error('mensaje de error');
+            console.warn('mensaje de aviso');
+            // Debugger: activacion
+            //debugger
+            //console.log('Despues del debugger');
+        
+            // 1. Variables
+            const saludo = "Hola otra vez";
+            console.log(saludo);
+            //asignar nuevo valor a constante?????
+            //saludo='hola holita'; 
+
+            // if (true){
+            //     const text = "texto dentro de if";
+            //     console.log(text);
+            // }
+            //console.log(text);
+
+            // Diferencia entre let/var
+            let mejor = 'variable con scope';
+            var peor = 'variable sin scope';
+            //con let
+            // if (true){
+            //     let text = "texto dentro de if con let";
+            //     console.log(text);
+            // }
+            // console.log(text);
+
+            //con var
+            if (true){
+                var text = "texto dentro de if con var";
+                console.log(text);
+            }
+            console.log(text);
+
+            // 2. NUMEROS
+            // + Sumar
+            // console.log(2 + 2)
+            // // - Restar
+            // console.log(3 - 1)
+            // // * Multiplicar
+            // console.log(3 * 2)
+            // // / Dividir
+            // console.log(4 / 2)
+            // // < Menor que
+            // console.log(10 < 20)
+            // // > Mayor que
+            // console.log(40 > 20)
+            // // <= Menor o igual que
+            // console.log(10 <= 20)
+            // // >= Mayor o igual que
+            // console.log(50 >= 40)
+            // // == Igual que (Check value)
+            // console.log(40 == 40) // TRUE
+            // console.log(40 == '40') // TRUE
+            // // === Igual que (Check value and type)
+            // console.log(40 === 40) // TRUE
+            // console.log(40 === '40') // FALSE
+            // // != No es igual que, PARA CHEQUEAR TIPO TAMBIEN !==
+            // console.log(40 != '40') // FALSE
+            // console.log(40 !== '40') // TRUE
+            // //TYPEOF
+            // let num = 20;
+            // console.log(typeof(num));
+            // // NaN
+            // const notanum = 'kujhgfiusg';
+            // console.log(isNaN(notanum));
+            // console.log(isNaN('12'));
+            // console.log(isNaN(12));
+
+            // /*
+            //  * Obtener el total gastado en la compra de estos productos, aplica 
+            //  * el descuento indicado.
+            //  * 
+            //  * Móvil (300€) + Cascos (30€) + Funda (10€)
+            //  * Descuento 10%
+            //  * La compra tiene un IVA del 21%
+            //  * El resultado debe estar redondeado a dos decimales, toFixed()
+            //  */
+            // const MOVIL_PRICE = 300;
+            // const CASCOS_PRICE = 30;
+            // const FUNDA_PRICE = 10;
+            // const DISCOUNT = 10;
+            // const IVA = 1 + 21/100;
+            // const TOTAL = MOVIL_PRICE + CASCOS_PRICE + FUNDA_PRICE;
+            // const SUBTOTAL1 = TOTAL * (1 - DISCOUNT/100);
+            // const SUBTOTAL2 = SUBTOTAL1 * IVA;
+            // console.log('A pagar ' + SUBTOTAL2.toFixed(2));
+
+            // 3. Cadenas
+            // concatenar texto
+            console.log('Hello ' + 'World');
+            // template literals
+            const name2 = 'Nayra';
+            console.log(`Hello ${name2} que pases un dia estupendo`);
+            console.log(name2.length);
+            // .slice(start, end)
+            console.log(name2.slice(2, 5))
+            // .replace(‘este texto', ‘por este otro’)
+            console.log(name2.replace('na', 'asdfas'))
+            // .trim()
+            //const text = '   as dfas a asdfasd a    '
+            console.log(text.trim())
+            // .split(‘,’)
+            const geolocation = 'Calle whatever. 7. 1D'
+            console.log(geolocation.split('.'))
+
+
+            // 4. BOOLEANS
+            // True (Verdadero)
+            // 1
+            // "Whatever"
+            // 3.14
+            // 100 > 5
+            // 1 < 100
+            // '1' == 1
+            console.log(Boolean(1));
+            console.log(Boolean("Whatever"));
+            console.log(Boolean(3.14));
+            console.log(Boolean(100 > 5));
+            console.log(Boolean(1 < 100));
+            console.log(Boolean('1' == 1));
+            // False (Falso)
+            // 0, -0
+            // ""
+            // NaN
+            // null
+            // undefined
+            // '1' === 1
+            console.log(Boolean(0));
+            console.log(Boolean(-0));
+            console.log(Boolean(""));
+            console.log(Boolean(NaN));
+            console.log(Boolean(null));
+            console.log(Boolean(undefined));
+            console.log(Boolean('1' === 1));
+
+            // 5. Valores nulos e indefinidos
+            // Undefined
+            // console.log(a);
+            // var a = 'var de test';
+            // console.log(a);
+
+            // console.log(b);
+            // let b = 'let de test';
+            // console.log(b);
+
+            //NULL
+            console.log(c);
+            var c = null;
+            console.log(c);
+
+            console.log(d);
+            let d = null;
+            console.log(d);
+
+            
+
+        </script>
+
+    </body>
+</html>
+
+
+
