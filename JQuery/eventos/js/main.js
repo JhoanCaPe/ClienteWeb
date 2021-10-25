@@ -26,14 +26,18 @@ $(function(){
 
     $("body").keydown(function(event){
         let keycode = event.which;
-        
+
+        let topC = parseInt($("#cuadrado").css("top"),10);
+        let leftC = parseInt($("#cuadrado").css("left"),10);
+
         switch(keycode){
             case 37:
-                $("#cuadrado").css("left", "-=10");
+                leftC - 10 > 0 ? $("#cuadrado").css("left", "-=10")
+                : $("#cuadrado").css("left", "0");
                 break;
             case 38:
-                $("#cuadrado").css("top", "-=10");
-                break;
+                topC - 10 > 0 ? $("#cuadrado").css("top", "-=10")
+                : $("#cuadrado").css("top", "0");
             case 39:
                 $("#cuadrado").css("left", "+=10");
                 break;
@@ -42,4 +46,17 @@ $(function(){
                 break;
         }
     });
+
+    // funcionamiento de la tabla, colorear filas
+    $("tr").mouseenter(function(event){
+        let value = $("#nombre").val();
+        $(this).is(":contains(" +value+ ")")
+            ? $(this).addClass("contains")
+            : $(this).addClass("no-contains");
+    });
+
+    $("tr").mouseleave(function(event){
+        $(this).prop("class", "");
+    });
+
 });

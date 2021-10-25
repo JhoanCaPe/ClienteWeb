@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  margin: 100px auto;
+  width: 80%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgba(77, 77, 77, 0.767);
+  color: white;
+}
+
+.data,
+.graphics {
+  height: 600px;
+  width: 50%;
+}
+
+.data {
+  padding: 2rem;
+}
+
+.graphics {
+  display: flex;
+  align-items: flex-end;
+}
+
+.graphics > div > div {
+  height: 15px;
+  width: 20%;
+}
+
+.graphics > div {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 25%;
+}
+.graphics .names {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.year-2017 {
+  background-color: rgb(64, 131, 158);
+}
+
+.year-2018 {
+  background-color: rgba(143, 79, 79, 0.842);
+}
+
+.year-2019 {
+  background-color: rgb(40, 141, 90);
+}
