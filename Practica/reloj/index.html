@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Actual</title>
+    <script type="text/javascript" src="hora.js"></script> 
+    <style type="text/css">
+        * {background-color: black;}
+        #fecha_hora{
+            display: flex;
+            justify-content: center;
+            color: cyan;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2.5em;
+        }
+        #reloj, #fecha{
+            padding: 0.6em;
+        }
+    </style>
+</head>
+<body onload="main()">
+    <div id="fecha_hora">
+        <div id="reloj"></div>
+        <div id="fecha"></div>
+    </div>
+</body>
+</html>

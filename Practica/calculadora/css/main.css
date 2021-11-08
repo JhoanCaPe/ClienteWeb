@@ -1,0 +1,36 @@
+.pantalla {
+  background-color: #fff;
+  width: 90%;
+}
+
+table, th, td {
+  border: 3px collapse;
+  background-color: #555555;
+  padding: 2px;
+}
+
+button {
+  border: 0;
+  border-radius: 1px;
+}
+
+.boton-numerico {
+  background-color: #dddddd;
+  width: 7em;
+
+}
+
+.boton-borrar {
+  background-color: red;
+  width: 5em;
+}
+.boton-igual {
+  background-color: rgb(0, 255, 13);
+  width: 5em;
+  height: 2em;
+}
+
+.boton-operacion {
+  background-color: deepskyblue;
+  width: 5em;
+}

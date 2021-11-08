@@ -1,0 +1,36 @@
+body{
+    background-color: indigo;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: linen;
+}
+
+
+button {
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid cyan 2px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: xx-large;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 510px;
+    margin: auto;
+    border: cyan solid 3px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+
+.reload{
+    margin-top: 5px;
+    background-color: lime;
+    display: inline-block;
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 10%;
+}

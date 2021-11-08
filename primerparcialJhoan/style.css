@@ -1,0 +1,41 @@
+.jugador {
+    height: 100px;
+    width: 100px;
+    background-image: url("abierta.png");
+    background-color: salmon;
+    border: black solid 2px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+} 
+.jugador div{
+    border-radius: 40%;
+    width: 35px;
+    height: 35px;
+    background-color: sienna;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 5px; 
+    visibility: hidden;
+}
+.jugando div{
+    visibility: visible ;
+}
+#j3, #j4, #j5, #j6 {
+    visibility: hidden;
+}
+
+.usar{
+    border: red solid 2px;
+    background-color: green;
+}
+#siguiente{
+    border: red 1px solid;
+    display: inline-block;
+}
+input {
+    width: 80%;
+    margin-top: 20px;
+    visibility: hidden;
+}

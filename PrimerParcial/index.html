@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Game Chinos</title>
+    
+</head>
+<body>
+    <h1>Jugemos a los Chinos</h1>
+    <h3>Modo de juego solo dos jugadores</h3>
+    <div class="container">
+        <div class="jugador">JUGADOR<br>
+            <img src="imagenes/fist.png " width="100" height="100" id="manojugador">
+            <p id="textoapuesta">Apuesta: 0</p>
+            <p id="textocontador">Contador: 0</p>
+        </div>
+        <div class="maquina">MAQUINA<br>
+            <img src="imagenes/fist.png " width="100" height="100" id="manomaquina">
+            <p >Apuesta: 0</p>
+            <p>Contador: 0</p>
+        </div>
+    </div>
+    <div class="container2">
+        <label for="llevo">LLevo:</label>
+        <input type="number" name="llevo" id="llevo">
+        <label for="apuesto">Apuesto</label>
+        <input type="number" name="apuesto" id="apuesto">
+        <button id="ejecutar">Abrir y ver ganador</button>
+        <button>Otra partida</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
