@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" style="background-color: lightsalmon;">
+                <h1>COL1</h1>
+                <p>Texto de la primera columna. Ocupa 4 unidades, y ocupa 2 filas.</p>
+            </div>
+            <div class="col-md" style="background-color: lightskyblue;">
+                <div class="row">
+                    <div class="col-md">
+                        <h1>COL2A</h1>
+                        <p>Texto de la segunda columna. Ocupa rest unidades, y ocupa 2 filas.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md" style="background-color: lightgreen;">
+                        <h1>COL2B</h1>
+                        <p>Texto de la segunda columna. Ocupa rest unidades, y ocupa 2 filas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="background-color: crimson;">
+            <div class="col-md-3" style="background-color: yellow;">
+                <h1>COL4A</h1>
+                <p>Nueva columna en otra fila, para probar offset.</p>
+            </div>
+            <div class="col-md-3 offset-md-1" style="background-color: slateblue;">
+                <h1>COL4B</h1>
+                <p>Nueva columna en otra fila, para probar offset (1 columna mas adelante).</p>
+            </div>
+            <div class="col-md-3 offset-md-2" style="background-color: lightseagreen;">
+                <h1>COL4C</h1>
+                <p>Nueva columna en otra fila, para probar offset (2 columnas mas adelante).</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-around" style="background-color: darkcyan;">
+            <div class="col-2" style="background-color: darkblue;">
+                <button class="btn btn-primary">HOLA</button>
+            </div>
+            <div class="col-2" style="background-color: darkred;">
+                <button class="btn btn-warning">HOLA</button>
+            </div>
+            <div class="col-2" style="background-color: darkviolet;">
+                <button class="btn btn-secondary">HOLA</button>
+            </div>
+            <div class="col-2" style="background-color: darkorange;">
+                <button class="btn btn-outline-success">HOLA</button>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
