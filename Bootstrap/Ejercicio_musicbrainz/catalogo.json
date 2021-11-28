@@ -1,0 +1,988 @@
+{
+    "created": "2021-11-15T13:29:58.962Z",
+    "count": 156346,
+    "offset": 0,
+    "artists": [
+        {
+            "id": "eeb1195b-f213-4ce1-b28c-8565211f8e43",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 100,
+            "name": "Guns N’ Roses",
+            "sort-name": "Guns N’ Roses",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "American hard rock band from Los Angeles",
+            "isnis": [
+                "0000000121589641"
+            ],
+            "life-span": {
+                "begin": "1985-03",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "ガンズ・アンド・ローゼズ",
+                    "name": "ガンズ・アンド・ローゼズ",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns and Roses",
+                    "name": "Guns and Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns -N- Roses",
+                    "name": "Guns -N- Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "guns 'n' roses",
+                    "name": "guns 'n' roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns'N Roses",
+                    "name": "Guns'N Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns'N'Roses",
+                    "name": "Guns'N'Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "GNR",
+                    "name": "GNR",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns´n Roses",
+                    "name": "Guns´n Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Gn'R",
+                    "name": "Gn'R",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns 'N Roses",
+                    "name": "Guns 'N Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns N'Roses",
+                    "name": "Guns N'Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns N´ Roses",
+                    "name": "Guns N´ Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns N Roses",
+                    "name": "Guns N Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns & Roses",
+                    "name": "Guns & Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guns 'N' Roses",
+                    "name": "Guns 'N' Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "rock"
+                },
+                {
+                    "count": 2,
+                    "name": "heavy metal"
+                },
+                {
+                    "count": -1,
+                    "name": "industrial rock"
+                },
+                {
+                    "count": 0,
+                    "name": "metal"
+                },
+                {
+                    "count": 1,
+                    "name": "american"
+                },
+                {
+                    "count": 0,
+                    "name": "band"
+                },
+                {
+                    "count": 21,
+                    "name": "hard rock"
+                },
+                {
+                    "count": -1,
+                    "name": "acoustic rock"
+                },
+                {
+                    "count": -1,
+                    "name": "pop rock"
+                },
+                {
+                    "count": 0,
+                    "name": "piano rock"
+                },
+                {
+                    "count": 2,
+                    "name": "glam metal"
+                },
+                {
+                    "count": 1,
+                    "name": "glam"
+                },
+                {
+                    "count": -1,
+                    "name": "classic pop and rock"
+                },
+                {
+                    "count": -1,
+                    "name": "pop/rock"
+                },
+                {
+                    "count": -1,
+                    "name": "patience"
+                },
+                {
+                    "count": -1,
+                    "name": "+usa (california:los angeles)"
+                },
+                {
+                    "count": 1,
+                    "name": "2008 universal fire victim"
+                }
+            ]
+        },
+        {
+            "id": "6704ae28-23e2-4d9f-a0c8-d92dcff21fef",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 58,
+            "name": "Guns 2 Roses",
+            "sort-name": "Guns 2 Roses",
+            "begin-area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "2004",
+                "ended": null
+            }
+        },
+        {
+            "id": "03418ece-21f3-4ce6-9719-ea912fbfbaef",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 58,
+            "name": "Roses N’ Guns",
+            "sort-name": "Roses N’ Guns",
+            "area": {
+                "id": "ae0110b6-13d4-4998-9116-5b926287aa23",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "name": "California",
+                "sort-name": "California",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "4635f072-feaa-47a7-b722-8be44776d523",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 58,
+            "name": "Guns All Roses",
+            "sort-name": "Guns All Roses",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "2012-07",
+                "ended": null
+            }
+        },
+        {
+            "id": "6f1018cd-67e4-4193-bace-34453d254b88",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 58,
+            "name": "Guns or Roses",
+            "sort-name": "Guns or Roses",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "7e042aab-e8dc-476e-8b67-c366337857a5",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 51,
+            "name": "Machine Guns N Roses",
+            "sort-name": "Machine Guns N Roses",
+            "begin-area": {
+                "id": "e5936529-76b1-449e-a2e9-6ed98fe8d0d9",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Salt Lake City",
+                "sort-name": "Salt Lake City",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "2014-04-22",
+                "ended": null
+            }
+        },
+        {
+            "id": "e0e396eb-6669-455c-a3c6-52f70c6dda79",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 48,
+            "name": "Roses & Cigarettes",
+            "sort-name": "Roses & Cigarettes",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "US female country duo",
+            "life-span": {
+                "begin": "2013",
+                "end": "2019-03-26",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "Roses & Cigarettes",
+                    "name": "Roses & Cigarettes",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Roses and Cigarettes",
+                    "name": "Roses and Cigarettes",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "e9dd688c-a5bb-482a-ab68-a2f04359215b",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 47,
+            "name": "Roses",
+            "sort-name": "Roses",
+            "area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "2013",
+                "ended": null
+            }
+        },
+        {
+            "id": "878b5286-7637-4416-ab1f-20870b949a5e",
+            "score": 46,
+            "name": "Roses",
+            "sort-name": "Roses",
+            "disambiguation": "Vermont indie pop",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "32cbda50-42bc-442f-9a11-677c06064607",
+            "score": 46,
+            "name": "Roses",
+            "sort-name": "Roses",
+            "disambiguation": "appeared on Lexurus release",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "07a3e342-cfe2-494b-a548-47db4c228322",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 46,
+            "name": "Ultimate Guns 'n Roses Tribute",
+            "sort-name": "Ultimate Guns 'n Roses Tribute",
+            "disambiguation": "Netherlands",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "62e15419-8620-4586-8f3e-70a9144ec52c",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 46,
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "name": "Guns",
+            "sort-name": "Guns",
+            "gender": "female",
+            "area": {
+                "id": "e0e3c82a-aea8-48d3-beda-9e587db0b969",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Copenhagen",
+                "sort-name": "Copenhagen",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "4c093436-be96-4317-a82f-733938485084",
+                "type": "Municipality",
+                "type-id": "17246454-5ac4-36a1-b81a-4753eb2dab20",
+                "name": "Trondheim",
+                "sort-name": "Trondheim",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Singer: Gunhild Jarwson Tekle",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "7aff3635-2524-457b-b006-2d2482d92e57",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 46,
+            "name": "Guns",
+            "sort-name": "Guns",
+            "country": "AU",
+            "area": {
+                "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Australia",
+                "sort-name": "Australia",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "a69a4e6b-1732-40a2-afa7-808179722424",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 46,
+            "name": "Blood & Roses",
+            "sort-name": "Blood & Roses",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1982-01",
+                "end": "1986",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "Blood and Roses",
+                    "name": "Blood and Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "uk"
+                },
+                {
+                    "count": 1,
+                    "name": "punk"
+                },
+                {
+                    "count": 1,
+                    "name": "london"
+                },
+                {
+                    "count": 1,
+                    "name": "england"
+                }
+            ]
+        },
+        {
+            "id": "d8f031d5-0b49-4e3a-97cc-84638d320db8",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 46,
+            "name": "Fish & Roses",
+            "sort-name": "Fish & Roses",
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Fish and Roses",
+                    "name": "Fish and Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "87684162-ab42-4cfa-bf22-ebe237035f54",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 46,
+            "name": "L.A. Guns",
+            "sort-name": "L.A. Guns",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "1f40c6e1-47ba-4e35-996f-fe6ee5840e62",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Los Angeles",
+                "sort-name": "Los Angeles",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000119400846"
+            ],
+            "life-span": {
+                "begin": "1983",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Los Angeles guns",
+                    "name": "Los Angeles guns",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "L>A> guns",
+                    "name": "L>A> guns",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "L. A. Guns",
+                    "name": "L. A. Guns",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "LA Guns",
+                    "name": "LA Guns",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "hard rock"
+                },
+                {
+                    "count": 2,
+                    "name": "glam metal"
+                },
+                {
+                    "count": 1,
+                    "name": "glam"
+                }
+            ]
+        },
+        {
+            "id": "b5fa29f1-6c22-4321-a488-b5f363b06b06",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "The Stone Roses",
+            "sort-name": "Stone Roses, The",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "852531bf-3410-401f-b432-9c3157a386b9",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Manchester",
+                "sort-name": "Manchester",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000122488228"
+            ],
+            "life-span": {
+                "begin": "1984",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "The Stones Roses",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "The Stones Roses",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "The Stone Rosses",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "The Stone Rosses",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Stone Roses",
+                    "name": "Stone Roses",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Stone Roses, The",
+                    "name": "Stone Roses, The",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "rock"
+                },
+                {
+                    "count": 2,
+                    "name": "alternative rock"
+                },
+                {
+                    "count": 0,
+                    "name": "british"
+                },
+                {
+                    "count": 0,
+                    "name": "uk"
+                },
+                {
+                    "count": 1,
+                    "name": "madchester"
+                },
+                {
+                    "count": 1,
+                    "name": "indie rock"
+                },
+                {
+                    "count": 1,
+                    "name": "jangle pop"
+                },
+                {
+                    "count": 2,
+                    "name": "neo-psychedelia"
+                },
+                {
+                    "count": 1,
+                    "name": "alternative dance"
+                },
+                {
+                    "count": 0,
+                    "name": "english"
+                },
+                {
+                    "count": -1,
+                    "name": "england"
+                },
+                {
+                    "count": -1,
+                    "name": "manchester"
+                },
+                {
+                    "count": 0,
+                    "name": "rock and indie"
+                },
+                {
+                    "count": 1,
+                    "name": "baggy / madchester"
+                }
+            ]
+        },
+        {
+            "id": "4cff6530-169d-4787-87b1-feb74dea27ad",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "Gansch and Roses",
+            "sort-name": "Gansch and Roses",
+            "life-span": {
+                "begin": "2001",
+                "ended": null
+            }
+        },
+        {
+            "id": "d86a8b5e-a1d9-4799-82cc-399a961385fe",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "Franc & Roses",
+            "sort-name": "Franc & Roses",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "c9783590-8a7f-4e34-a0cb-00e61d817c6c",
+            "score": 44,
+            "name": "Roses and Exile",
+            "sort-name": "Roses and Exile",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "f7531ec7-fde3-4c72-8ebc-23d9c54f810f",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "Bread & Roses",
+            "sort-name": "Bread and Roses",
+            "area": {
+                "id": "e331bfdf-b908-429c-a79b-710cf9c06abb",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Boston",
+                "sort-name": "Boston",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "e331bfdf-b908-429c-a79b-710cf9c06abb",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Boston",
+                "sort-name": "Boston",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "e331bfdf-b908-429c-a79b-710cf9c06abb",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Boston",
+                "sort-name": "Boston",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "all-acoustic rock band from Boston, Massachusetts",
+            "isnis": [
+                "0000000460384093"
+            ],
+            "life-span": {
+                "begin": "2003",
+                "end": "2009",
+                "ended": true
+            }
+        },
+        {
+            "id": "4ff2fd1d-001c-4ba2-8c09-9d686428301c",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "Thunder & Roses",
+            "sort-name": "Thunder & Roses",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Philadelphia",
+                "sort-name": "Philadelphia",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": true
+            }
+        },
+        {
+            "id": "57fb9fa7-1252-4cd6-bff1-b5873c935580",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 44,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Roses & Garlics",
+            "sort-name": "Roses & Garlics",
+            "gender": "male",
+            "area": {
+                "id": "f9a822ff-adce-434c-9292-a8b6a0a37a8e",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Istanbul",
+                "sort-name": "Istanbul",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Turkish trance producer Ümit Yıldırım",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "21c33442-c82f-4df2-92b5-4832bb0010cc",
+            "score": 44,
+            "name": "Guns & Butter",
+            "sort-name": "Guns & Butter",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "12c223ad-5a6b-4423-96d1-0148000df978",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 44,
+            "name": "Guns & Ammo",
+            "sort-name": "Guns & Ammo",
+            "life-span": {
+                "ended": null
+            }
+        }
+    ]
+}

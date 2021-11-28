@@ -1,0 +1,18 @@
+.amarillo{
+    background-color: yellow;
+    border: 2px solid blueviolet;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+    border: 2px solid blueviolet;
+    height: 100px;
+}
+.negro{
+    background-color: black;
+    color: yellowgreen;
+    border: 2px solid blueviolet;
+    height: 100px;
+}
+
